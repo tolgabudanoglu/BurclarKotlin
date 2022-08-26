@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
+
             app:expandedTitleMarginStart="5dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
@@ -83,15 +83,6 @@
 
 
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:clickable="true"
 
-        app:backgroundTint="#2778F1"
-        app:fabSize="normal"
-        app:layout_anchor="@+id/appbar"
-        app:layout_anchorGravity="bottom|right|end"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
