@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.tek_satir.view.*
 
 class BurclarArrayAdapter(

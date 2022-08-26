@@ -1,12 +1,9 @@
 package com.example.burclarkotlin2
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
-
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         listBurclar.setOnItemClickListener { parent, view, position, id ->
 
             var intent =Intent(this@MainActivity,DetayActivity::class.java)
+            intent.putExtra("tiklanilanOgePosition",position)
+            intent.putExtra("tumBurcBilgileri",tumBurcBilgileri)
             startActivity(intent)
 
 
