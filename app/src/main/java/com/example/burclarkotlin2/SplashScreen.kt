@@ -29,6 +29,7 @@ class SplashScreen : AppCompatActivity() {
             override fun onFinish() {
                 /*var intent = Intent(this@SplashScreen,MainActivity::class.java)
                 startActivity(intent)*/
+
                 val openStartingPoint = Intent(
                     this@SplashScreen,
                     MainActivity::class.java
